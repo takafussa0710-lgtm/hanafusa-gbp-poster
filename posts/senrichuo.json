@@ -1,0 +1,65 @@
+[
+  {
+    "summary": "【千里中央駅徒歩5分・皮膚科×形成外科のハイブリッドクリニック】花ふさ皮ふ科グループの本院です。皮膚科専門医・形成外科の医師が、アトピー・ニキビ・湿疹などの保険診療から、粉瘤・ほくろ・眼瞼下垂の日帰り手術、医療脱毛・シミ取り・たるみ治療まで対応します。保険も自費も一つの窓口で。完全予約制・キャッシュレス対応。",
+    "topicType": "STANDARD",
+    "callToAction": { "actionType": "LEARN_MORE", "url": "https://hanafusa-hifuka.com/" }
+  },
+  {
+    "summary": "【粉瘤（ふんりゅう）は日帰り手術で対応】「コリコリしたできもの」「赤く腫れて痛い」「独特のにおい」——それは粉瘤かもしれません。当院は形成外科の医師が、大きさや炎症に応じて切開法・くりぬき法から最適な方法を選び、傷跡に配慮した日帰り手術を行います。保険適用。お早めにご相談ください。",
+    "topicType": "STANDARD",
+    "image": "funryu_4x3.jpg",
+    "callToAction": { "actionType": "LEARN_MORE", "url": "https://hanafusa-hifuka.com/atheroma-lp/" }
+  },
+  {
+    "summary": "【その粉瘤、放置していませんか？】粉瘤は自然には治らず、放置すると大きくなったり、細菌感染で赤く腫れて強く痛むことがあります。自分で絞り出すと再発・感染のリスクが高まります。袋ごと取り除くことで再発を抑えられます。千里中央で粉瘤の治療をお考えの方は当院へ。",
+    "topicType": "STANDARD",
+    "callToAction": { "actionType": "LEARN_MORE", "url": "https://hanafusa-hifuka.com/atheroma-lp/" }
+  },
+  {
+    "summary": "【できものの「正体」を、その場で診断】当院は皮膚超音波検査（エコー）を用いた画像診断を行い、皮膚科医と形成外科の医師が連携してその日のうちに診断・方針をご説明します。「粉瘤かな？」「これは手術が必要？」という不安に、的確にお答えします。千里中央駅徒歩5分。",
+    "topicType": "STANDARD",
+    "callToAction": { "actionType": "LEARN_MORE", "url": "https://hanafusa-hifuka.com/" }
+  },
+  {
+    "summary": "【千里中央で医療脱毛をお考えの方へ】当院は皮膚科専門医による医療脱毛を行っています。肌トラブルが起きても同じ院で皮膚科診療を受けられるのが、皮膚科併設クリニックの安心ポイント。部位・料金はお気軽にご相談ください。※自由診療",
+    "topicType": "STANDARD",
+    "callToAction": { "actionType": "LEARN_MORE", "url": "https://hanafusa-hifuka-beauty.com/md/" }
+  },
+  {
+    "summary": "【シミ・肝斑が気になる季節に｜ピコレーザー】紫外線が強くなるこれからの時期、シミ・肝斑のご相談が増えています。当院はピコレーザーやフォトフェイシャルなど、肌状態に合わせた治療をご提案。皮膚科専門医が診断したうえで方針を決めるので安心です。千里中央駅徒歩5分。※自由診療",
+    "topicType": "STANDARD",
+    "callToAction": { "actionType": "LEARN_MORE", "url": "https://hanafusa-hifuka-beauty.com/" }
+  },
+  {
+    "summary": "【ニキビ・ニキビ跡・毛穴の治療なら】繰り返すニキビ、気になるニキビ跡やクレーター。保険のニキビ治療から、ダーマペン4・ポテンツァ・サブシジョン・各種ピーリングなど自費治療まで、症状に合わせてご提案します。まずは皮膚科専門医にご相談ください。",
+    "topicType": "STANDARD",
+    "callToAction": { "actionType": "LEARN_MORE", "url": "https://hanafusa-hifuka-beauty.com/" }
+  },
+  {
+    "summary": "【まぶたの重さ・ほくろ・できものは形成外科へ】「まぶたが下がって見えづらい・眠そうに見える」眼瞼下垂、気になるほくろや脂肪腫。当院は形成外科の医師が、傷跡に配慮した日帰り手術に対応します。保険適用の可否も含めてご説明します。千里中央・豊中で形成外科をお探しの方へ。",
+    "topicType": "STANDARD",
+    "callToAction": { "actionType": "LEARN_MORE", "url": "https://hanafusa-hifuka.com/" }
+  },
+  {
+    "summary": "【ワキのにおい・汗に、切らない治療「ミラドライ」】ワキガ・多汗症が気になる方へ。当院はマイクロ波で汗腺にアプローチする「ミラドライ」をご用意。メスを使わない治療をお探しの方に。皮膚科専門医がお肌を診たうえでご案内します。※自由診療",
+    "topicType": "STANDARD",
+    "images": ["miradry_4x3.jpg", "miradry_treat_4x3.jpg"],
+    "callToAction": { "actionType": "LEARN_MORE", "url": "https://hanafusa-hifuka-beauty.com/miradry-lp/" }
+  },
+  {
+    "summary": "【顔の赤み・赤ら顔・酒さにお悩みの方へ】頬の赤みや酒さ（しゅさ）には、Vビームなどによる治療をご提案できます。保険診療で対応できる場合もあります。気になる赤みは皮膚科専門医にまずご相談ください。千里中央駅徒歩5分。※治療内容により自由診療",
+    "topicType": "STANDARD",
+    "image": "vbeam_4x3.jpg",
+    "callToAction": { "actionType": "LEARN_MORE", "url": "https://hanafusa-hifuka-beauty.com/treatment/vbeam/" }
+  },
+  {
+    "summary": "【お子さまの肌トラブルもご相談ください】アトピー性皮膚炎、湿疹、水いぼ、とびひ、おむつかぶれなど、小児皮膚科にも対応しています。保険診療です。千里中央駅徒歩5分、完全予約制で待ち時間に配慮しています。",
+    "topicType": "STANDARD",
+    "callToAction": { "actionType": "LEARN_MORE", "url": "https://hanafusa-hifuka.com/" }
+  },
+  {
+    "summary": "【紫外線対策、できていますか？】シミ・乾燥・肌老化の大きな原因が紫外線。日焼け止めの選び方や塗り直し、シミができてしまった後のケアまで、皮膚科専門医がアドバイスします。気になる方は千里中央駅徒歩5分の当院へ。",
+    "topicType": "STANDARD",
+    "callToAction": { "actionType": "LEARN_MORE", "url": "https://hanafusa-hifuka.com/" }
+  }
+]

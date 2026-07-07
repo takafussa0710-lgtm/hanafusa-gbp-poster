@@ -1,0 +1,7 @@
+# 認証情報・秘密は絶対にコミットしない
+client_secret_*.json
+*refresh*token*
+*.secret
+.env
+LOCATIONS_REFERENCE.txt
+__pycache__/
