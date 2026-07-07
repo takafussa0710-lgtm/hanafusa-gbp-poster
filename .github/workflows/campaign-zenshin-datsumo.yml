@@ -1,0 +1,27 @@
+name: Campaign 全身脱毛 (2026-07-08 09:00 JST 単発)
+
+# 明日 2026-07-08 09:00 JST（=00:00 UTC）に3院へ「全身脱毛」を1回投稿する単発ワークフロー。
+# 実行後は不要になるので、このファイルは削除してOK（放置すると来年の7/8にも動きます）。
+on:
+  schedule:
+    - cron: "0 0 8 7 *"      # 毎年7月8日 00:00 UTC = 09:00 JST（今回は2026/7/8が対象）
+  workflow_dispatch: {}       # 手動でも実行可（Actionsタブ）
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: 全身脱毛キャンペーン投稿（千里中央・江坂・箕面）
+        env:
+          GBP_CLIENT_ID:     ${{ secrets.GBP_CLIENT_ID }}
+          GBP_CLIENT_SECRET: ${{ secrets.GBP_CLIENT_SECRET }}
+          GBP_REFRESH_TOKEN: ${{ secrets.GBP_REFRESH_TOKEN }}
+          LOC_SENRICHUO:     ${{ secrets.LOC_SENRICHUO }}
+          LOC_ESAKA:         ${{ secrets.LOC_ESAKA }}
+          LOC_MINOH:         ${{ secrets.LOC_MINOH }}
+          IMAGES_BASE_URL:   ${{ secrets.IMAGES_BASE_URL }}
+        run: python post_campaign.py posts/campaign_zenshin_datsumo.json
