@@ -28,5 +28,11 @@ jobs:
           LOC_MINOH:         ${{ secrets.LOC_MINOH }}
           LOC_LAB:           ${{ secrets.LOC_LAB }}
           IMAGES_BASE_URL:   ${{ secrets.IMAGES_BASE_URL }}
-        run: python post_to_gbp.py
+        run: |
+          # 2026-07-08 は全身脱毛キャンペーン（＋ラボ ハイドラジェントル）のみのため、日替わり投稿をスキップ
+          if [ "$(date -u +%F)" = "2026-07-08" ]; then
+            echo "2026-07-08: キャンペーン日のため通常の日替わり投稿はスキップします"
+            exit 0
+          fi
+          python post_to_gbp.py
 # 追加ライブラリ不要（Python標準ライブラリのみ）。pip install は不要です。

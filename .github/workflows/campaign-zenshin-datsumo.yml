@@ -23,5 +23,6 @@ jobs:
           LOC_SENRICHUO:     ${{ secrets.LOC_SENRICHUO }}
           LOC_ESAKA:         ${{ secrets.LOC_ESAKA }}
           LOC_MINOH:         ${{ secrets.LOC_MINOH }}
+          LOC_LAB:           ${{ secrets.LOC_LAB }}
           IMAGES_BASE_URL:   ${{ secrets.IMAGES_BASE_URL }}
         run: python post_campaign.py posts/campaign_zenshin_datsumo.json
