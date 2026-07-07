@@ -29,10 +29,16 @@ jobs:
           LOC_LAB:           ${{ secrets.LOC_LAB }}
           IMAGES_BASE_URL:   ${{ secrets.IMAGES_BASE_URL }}
         run: |
-          # 2026-07-08 は全身脱毛キャンペーン（＋ラボ ハイドラジェントル）のみのため、日替わり投稿をスキップ
-          if [ "$(date -u +%F)" = "2026-07-08" ]; then
-            echo "2026-07-08: キャンペーン日のため通常の日替わり投稿はスキップします"
+          TODAY=$(date -u +%F)
+          # 2026-07-08 は全身脱毛キャンペーン（＋ラボ）のみのため、全拠点の日替わりをスキップ
+          if [ "$TODAY" = "2026-07-08" ]; then
+            echo "2026-07-08: キャンペーン日のため全拠点スキップ"
             exit 0
+          fi
+          # 2026-07-09 は千里中央・箕面はアビクリアのみ（江坂・ラボは通常）
+          if [ "$TODAY" = "2026-07-09" ]; then
+            export SKIP_LOCATIONS="LOC_SENRICHUO,LOC_MINOH"
+            echo "2026-07-09: 千里中央・箕面は日替わりスキップ（アビクリアのみ）"
           fi
           python post_to_gbp.py
 # 追加ライブラリ不要（Python標準ライブラリのみ）。pip install は不要です。

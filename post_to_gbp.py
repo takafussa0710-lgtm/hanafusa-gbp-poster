@@ -71,8 +71,13 @@ def create_post(token, location_resource, post, images_base=""):
 def main():
     token = get_access_token()
     images_base = os.environ.get("IMAGES_BASE_URL", "")  # 例: GitHubの raw URL https://raw.githubusercontent.com/<user>/<repo>/main/images
+    # 本日だけ特定拠点をスキップ（例: キャンペーン投稿と重複させたくない日）。環境変数 SKIP_LOCATIONS="LOC_SENRICHUO,LOC_MINOH"
+    skip = {x.strip() for x in os.environ.get("SKIP_LOCATIONS", "").split(",") if x.strip()}
     failures = 0
     for env_name, file_key in LOCATIONS.items():
+        if env_name in skip:
+            print(f"[skip] {env_name} は本日スキップ指定")
+            continue
         loc = os.environ.get(env_name)
         if not loc:
             print(f"[skip] {env_name} 未設定")
