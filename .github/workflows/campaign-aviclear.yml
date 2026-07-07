@@ -1,7 +1,7 @@
-name: Campaign アビクリア (2026-07-09 09:00 JST 単発)
+name: Campaign 7/9 (アビクリア/シルファーム/メソナJ) 単発
 
-# 2026-07-09 09:00 JST に 千里中央・箕面 へ「アビクリア」を1回投稿する単発ワークフロー。
-# 実行後は削除OK（放置すると来年7/9にも動きます）。
+# 2026-07-09 09:00 JST の投稿：千里中央・箕面=アビクリア／江坂=シルファームX／ラボ=メソナJ。
+# この日は日替わり投稿を全拠点スキップ（daily-post.yml側で制御）。実行後は削除OK。
 on:
   schedule:
     - cron: "0 0 9 7 *"      # 毎年7月9日 00:00 UTC = 09:00 JST（今回は2026/7/9が対象）
@@ -15,12 +15,14 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: アビクリア投稿（千里中央・箕面）
+      - name: 7/9投稿（アビクリア/シルファーム/メソナJ）
         env:
           GBP_CLIENT_ID:     ${{ secrets.GBP_CLIENT_ID }}
           GBP_CLIENT_SECRET: ${{ secrets.GBP_CLIENT_SECRET }}
           GBP_REFRESH_TOKEN: ${{ secrets.GBP_REFRESH_TOKEN }}
           LOC_SENRICHUO:     ${{ secrets.LOC_SENRICHUO }}
           LOC_MINOH:         ${{ secrets.LOC_MINOH }}
+          LOC_ESAKA:         ${{ secrets.LOC_ESAKA }}
+          LOC_LAB:           ${{ secrets.LOC_LAB }}
           IMAGES_BASE_URL:   ${{ secrets.IMAGES_BASE_URL }}
         run: python post_campaign.py posts/campaign_aviclear.json
