@@ -1,0 +1,29 @@
+[
+  {
+    "loc": "LOC_SENRICHUO",
+    "summary": "【粉瘤（ふんりゅう）は日帰り手術で対応】「コリコリしたできもの」「赤く腫れて痛い」「独特のにおい」——それは粉瘤かもしれません。当院は形成外科の医師が、大きさや炎症に応じて切開法・くりぬき法から最適な方法を選び、傷跡に配慮した日帰り手術を行います。保険適用。お早めにご相談ください。",
+    "topicType": "STANDARD",
+    "image": "funryu_4x3.jpg",
+    "callToAction": { "actionType": "LEARN_MORE", "url": "https://hanafusa-hifuka.com/atheroma-lp/" }
+  },
+  {
+    "loc": "LOC_ESAKA",
+    "summary": "【粉瘤（ふんりゅう）は日帰り手術で対応】「コリコリしたできもの」「赤く腫れて痛い」「独特のにおい」——それは粉瘤かもしれません。当院では大きさや炎症に応じて切開法・くりぬき法から方法を選び、傷跡に配慮した日帰り手術を行います。保険適用。江坂駅徒歩1分、お早めにご相談ください。",
+    "topicType": "STANDARD",
+    "image": "funryu_4x3.jpg",
+    "callToAction": { "actionType": "LEARN_MORE", "url": "https://hanafusa-hifuka.com/atheroma-lp/" }
+  },
+  {
+    "loc": "LOC_MINOH",
+    "summary": "【粉瘤（ふんりゅう）は日帰り手術で対応】「コリコリしたできもの」「赤く腫れて痛い」「独特のにおい」——それは粉瘤かもしれません。当院では大きさや炎症に応じて切開法・くりぬき法から方法を選び、傷跡に配慮した日帰り手術を行います。保険適用。箕面萱野駅直結、お早めにご相談ください。",
+    "topicType": "STANDARD",
+    "image": "funryu_4x3.jpg",
+    "callToAction": { "actionType": "LEARN_MORE", "url": "https://hanafusa-hifuka.com/atheroma-lp/" }
+  },
+  {
+    "loc": "LOC_LAB",
+    "summary": "【医師監修サロンのホームケア｜ゼオスキンヘルス】サロンケアの効果を保つには、毎日のホームケアが大切です。当サロンでは皮膚科専門医監修のもと、肌状態に合わせてゼオスキンヘルス（ZO SKIN HEALTH）などのスキンケアをご提案します。くすみ・毛穴・ハリなど、お悩みに合わせてお選びいただけます。千里中央駅徒歩5分。",
+    "topicType": "STANDARD",
+    "callToAction": { "actionType": "LEARN_MORE", "url": "https://hanafusa-hifuka.com/lab/" }
+  }
+]
