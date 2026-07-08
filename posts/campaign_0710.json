@@ -24,6 +24,7 @@
     "loc": "LOC_LAB",
     "summary": "【医師監修サロンのホームケア｜ゼオスキンヘルス】サロンケアの効果を保つには、毎日のホームケアが大切です。当サロンでは皮膚科専門医監修のもと、肌状態に合わせてゼオスキンヘルス（ZO SKIN HEALTH）などのスキンケアをご提案します。くすみ・毛穴・ハリなど、お悩みに合わせてお選びいただけます。千里中央駅徒歩5分。",
     "topicType": "STANDARD",
-    "callToAction": { "actionType": "LEARN_MORE", "url": "https://hanafusa-hifuka.com/lab/" }
+    "image": "zoskin_4x3.jpg",
+    "callToAction": { "actionType": "LEARN_MORE", "url": "https://hanafusa-hifuka.com/lab/cosme/" }
   }
 ]
