@@ -1,0 +1,27 @@
+name: Campaign 7/11 (メンズヒゲ脱毛 3院) 単発
+
+# 2026-07-11 09:07 JST の投稿：千里中央・江坂・箕面=メンズのヒゲ脱毛。
+# この日、3院は日替わりスキップ（daily-post.yml側でSKIP_LOCATIONS制御）。ラボは通常の日替わり。実行後は削除OK。
+on:
+  schedule:
+    - cron: "7 0 11 7 *"     # 7月11日 00:07 UTC = 09:07 JST
+  workflow_dispatch: {}
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: 7/11投稿（メンズヒゲ脱毛：千里中央・江坂・箕面）
+        env:
+          GBP_CLIENT_ID:     ${{ secrets.GBP_CLIENT_ID }}
+          GBP_CLIENT_SECRET: ${{ secrets.GBP_CLIENT_SECRET }}
+          GBP_REFRESH_TOKEN: ${{ secrets.GBP_REFRESH_TOKEN }}
+          LOC_SENRICHUO:     ${{ secrets.LOC_SENRICHUO }}
+          LOC_ESAKA:         ${{ secrets.LOC_ESAKA }}
+          LOC_MINOH:         ${{ secrets.LOC_MINOH }}
+          IMAGES_BASE_URL:   ${{ secrets.IMAGES_BASE_URL }}
+        run: python post_campaign.py posts/campaign_0711.json
