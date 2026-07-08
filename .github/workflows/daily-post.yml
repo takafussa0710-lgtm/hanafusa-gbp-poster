@@ -2,8 +2,8 @@ name: GBP daily post
 
 on:
   schedule:
-    # 毎日 09:00 JST（=00:00 UTC）に実行。時刻を変えたい場合は cron を編集（UTC基準）
-    - cron: "0 0 * * *"
+    # 毎日 09:07 JST（=00:07 UTC）に実行。00分はGitHubが混雑し遅延が大きいため半端な分に設定。
+    - cron: "7 0 * * *"
   workflow_dispatch: {}   # 手動テスト実行も可能（Actionsタブから Run workflow）
 
 jobs:

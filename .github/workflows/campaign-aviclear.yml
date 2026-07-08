@@ -4,7 +4,7 @@ name: Campaign 7/9 (アビクリア/シルファーム/メソナJ) 単発
 # この日は日替わり投稿を全拠点スキップ（daily-post.yml側で制御）。実行後は削除OK。
 on:
   schedule:
-    - cron: "0 0 9 7 *"      # 毎年7月9日 00:00 UTC = 09:00 JST（今回は2026/7/9が対象）
+    - cron: "7 0 9 7 *"      # 毎年7月9日 00:00 UTC = 09:00 JST（今回は2026/7/9が対象）
   workflow_dispatch: {}
 
 jobs:
