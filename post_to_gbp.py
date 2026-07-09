@@ -12,7 +12,7 @@ GBP 自動投稿スクリプト（GitHub Actions から毎日実行）
     例: "accounts/1234567890/locations/9876543210"
 """
 import os, json, sys, datetime
-import urllib.request, urllib.parse
+import urllib.request, urllib.parse, urllib.error
 
 TOKEN_URL = "https://oauth2.googleapis.com/token"
 # GBP 投稿API（localPosts）は v4 エンドポイント
@@ -78,11 +78,23 @@ def create_post(token, location_resource, post, images_base=""):
         if img_url:
             body["media"] = [{"mediaFormat": "PHOTO", "sourceUrl": img_url}]
     data = json.dumps(body).encode()
-    req = urllib.request.Request(url, data=data, method="POST")
-    req.add_header("Authorization", f"Bearer {token}")
-    req.add_header("Content-Type", "application/json")
-    with urllib.request.urlopen(req) as r:
-        return r.status
+    # GoogleのGBP APIは一時的に500/503/429を返すことがあるため、指数バックオフでリトライ
+    last = None
+    for i in range(5):
+        req = urllib.request.Request(url, data=data, method="POST")
+        req.add_header("Authorization", f"Bearer {token}")
+        req.add_header("Content-Type", "application/json")
+        try:
+            with urllib.request.urlopen(req) as r:
+                return r.status
+        except urllib.error.HTTPError as e:
+            last = e
+            if e.code in (500, 503, 429):
+                import time
+                time.sleep(min(2 ** i, 20))
+                continue
+            raise
+    raise last
 
 def main():
     token = get_access_token()
