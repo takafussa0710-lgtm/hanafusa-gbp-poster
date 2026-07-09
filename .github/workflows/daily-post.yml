@@ -2,23 +2,21 @@ name: GBP daily post
 
 on:
   schedule:
-    # 毎日 09:07 JST（=00:07 UTC）に実行。00分はGitHubが混雑し遅延が大きいため半端な分に設定。
+    # 毎日 09:07 JST（=00:07 UTC）。00分はGitHubが混雑し遅延が大きいため半端な分に設定。
     - cron: "7 0 * * *"
-  workflow_dispatch: {}   # 手動テスト実行も可能（Actionsタブから Run workflow）
+  workflow_dispatch: {}
 
+# 投稿ロジックは posts/schedule.json（曜日×週）＋ posts/content.json（テーマ本文）。
+# 2026-07-13 起点。開始前の日付・日曜・休診(水:江坂/ラボ)は表側のnullで自動的に投稿なし。
 jobs:
   post:
     runs-on: ubuntu-latest
     steps:
-      - name: チェックアウト
-        uses: actions/checkout@v4
-
-      - name: Python セットアップ
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-
-      - name: 投稿スクリプト実行
+      - name: スケジュール投稿
         env:
           GBP_CLIENT_ID:     ${{ secrets.GBP_CLIENT_ID }}
           GBP_CLIENT_SECRET: ${{ secrets.GBP_CLIENT_SECRET }}
@@ -28,18 +26,4 @@ jobs:
           LOC_MINOH:         ${{ secrets.LOC_MINOH }}
           LOC_LAB:           ${{ secrets.LOC_LAB }}
           IMAGES_BASE_URL:   ${{ secrets.IMAGES_BASE_URL }}
-        run: |
-          TODAY=$(date -u +%F)
-          # キャンペーン投稿のみの日は、全拠点の日替わりをスキップ
-          case "$TODAY" in
-            2026-07-08|2026-07-09|2026-07-10)
-              echo "$TODAY: キャンペーン日のため通常の日替わり投稿は全拠点スキップ"
-              exit 0
-              ;;
-            2026-07-11)
-              export SKIP_LOCATIONS="LOC_SENRICHUO,LOC_ESAKA,LOC_MINOH"
-              echo "2026-07-11: 3院はメンズヒゲ脱毛のため日替わりスキップ（ラボのみ通常投稿）"
-              ;;
-          esac
-          python post_to_gbp.py
-# 追加ライブラリ不要（Python標準ライブラリのみ）。pip install は不要です。
+        run: python post_scheduled.py

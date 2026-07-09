@@ -1,0 +1,36 @@
+{
+  "anchor": "2026-07-13",
+  "_note": "grid[週index][曜日index]。曜日: 0=月,1=火,2=水,3=木,4=金,5=土,6=日。null=投稿なし。W3の次はW1に戻る。",
+  "clinics": {
+    "LOC_SENRICHUO": {
+      "weeks": 3,
+      "grid": [
+        ["zenshin_datsumo", "funryu", "aviclear_nikibi", "mens_datsumo", "vbeam", "atopy", null],
+        ["ruby_laser", "picosure_pro", "miradry", "potenza", "vbeam", "nikibi", null],
+        ["bbl", "aviclear_hishi", "hifu", "curejet", "trifill", "nikibi", null]
+      ]
+    },
+    "LOC_ESAKA": {
+      "weeks": 3,
+      "grid": [
+        ["zenshin_datsumo", "funryu", null, "mens_datsumo", "vbeam", "atopy", null],
+        ["ruby_laser", "picosure", null, "sylfirm", "vbeam", "nikibi", null],
+        ["bbl", "miradry", null, "curejet", "trifill", "nikibi", null]
+      ]
+    },
+    "LOC_MINOH": {
+      "weeks": 3,
+      "grid": [
+        ["zenshin_datsumo", "funryu", "aviclear_nikibi", "mens_datsumo", "vbeam", "atopy", null],
+        ["ruby_laser", "picosure", "coolsculpting", "blessing", "vbeam", "nikibi", null],
+        ["stellar_m22", "aviclear_hishi", "xerf", "curejet", "atopy", "nikibi", null]
+      ]
+    },
+    "LOC_LAB": {
+      "weeks": 1,
+      "grid": [
+        ["hydra", "mesonaj", null, "zoskin", "hanafill_az", "sunsorit", null]
+      ]
+    }
+  }
+}
