@@ -26,6 +26,18 @@ LOCATIONS = {
     "LOC_LAB":       "lab",
 }
 
+# 休診日ルール（曜日: Mon=0 .. Sun=6）。該当拠点はその曜日は配信しない。
+# 江坂・ラボは水曜(2)休み → 水曜は配信しない（日替わり・キャンペーン共通で自動適用）
+JST = datetime.timezone(datetime.timedelta(hours=9))
+CLOSED_WEEKDAYS = {
+    "LOC_ESAKA": {2},
+    "LOC_LAB":   {2},
+}
+
+def is_closed_today(env_name):
+    wd = datetime.datetime.now(JST).weekday()
+    return wd in CLOSED_WEEKDAYS.get(env_name, set())
+
 def get_access_token():
     data = urllib.parse.urlencode({
         "client_id":     os.environ["GBP_CLIENT_ID"],
@@ -77,6 +89,9 @@ def main():
     for env_name, file_key in LOCATIONS.items():
         if env_name in skip:
             print(f"[skip] {env_name} は本日スキップ指定")
+            continue
+        if is_closed_today(env_name):
+            print(f"[skip] {env_name} は本日休診日のため配信しない")
             continue
         loc = os.environ.get(env_name)
         if not loc:

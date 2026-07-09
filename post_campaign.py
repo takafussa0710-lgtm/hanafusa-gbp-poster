@@ -17,6 +17,9 @@ def main():
     token = g.get_access_token()
     fail = 0
     for e in entries:
+        if g.is_closed_today(e['loc']):
+            print(f"[skip] {e['loc']} は本日休診日のため配信しない")
+            continue
         loc = os.environ.get(e['loc'])
         if not loc:
             print(f"[skip] {e['loc']} 未設定"); continue
