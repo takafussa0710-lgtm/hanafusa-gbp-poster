@@ -74,6 +74,18 @@
         "actionType": "LEARN_MORE",
         "url": "https://hanafusa-hifuka.com/symptoms/symptoms01/"
       }
+    },
+    "ruby_laser": {
+      "summary": "【シミ・そばかす・あざが気になる方へ｜ルビーレーザー】メラニン色素に反応するルビーレーザーで、シミ・そばかす・あざ・ほくろなどの色素性のお悩みに対応します。皮膚科専門医が診察のうえ、保険適用の可否も含めてご提案します。千里中央駅徒歩5分。※治療内容により自由診療。詳細はリンク先をご確認ください。",
+      "topicType": "STANDARD",
+      "images": [
+        "ruby_ib_1_4x3.jpg",
+        "ruby_ib_2_4x3.jpg"
+      ],
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://hanafusa-hifuka-beauty.com/"
+      }
     }
   },
   "LOC_ESAKA": {
@@ -140,6 +152,15 @@
       "callToAction": {
         "actionType": "LEARN_MORE",
         "url": "https://esaka-hanafusa-hifuka.com/dermatology/atopy/"
+      }
+    },
+    "ruby_laser": {
+      "summary": "【シミ・そばかす・あざが気になる方へ｜ルビーレーザー】メラニン色素に反応するルビーレーザーで、シミ・そばかす・あざ・ほくろなどの色素性のお悩みに対応します。皮膚科専門医が診察のうえ、保険適用の可否も含めてご提案します。江坂駅徒歩1分。※治療内容により自由診療。詳細はリンク先をご確認ください。",
+      "topicType": "STANDARD",
+      "image": "ruby_esaka_4x3.jpg",
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://esaka-hanafusa-hifuka.com/"
       }
     }
   },
@@ -213,6 +234,18 @@
       "callToAction": {
         "actionType": "LEARN_MORE",
         "url": "https://minoh-hanafusa-hifuka.jp/insurance/atopy/"
+      }
+    },
+    "ruby_laser": {
+      "summary": "【シミ・そばかす・あざが気になる方へ｜ルビーレーザー】メラニン色素に反応するルビーレーザーで、シミ・そばかす・あざ・ほくろなどの色素性のお悩みに対応します。皮膚科専門医が診察のうえ、保険適用の可否も含めてご提案します。箕面萱野駅直結。※治療内容により自由診療。詳細はリンク先をご確認ください。",
+      "topicType": "STANDARD",
+      "images": [
+        "ruby_ib_1_4x3.jpg",
+        "ruby_ib_2_4x3.jpg"
+      ],
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://minoh-hanafusa-hifuka.jp/"
       }
     }
   },
