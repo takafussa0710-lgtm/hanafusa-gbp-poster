@@ -86,6 +86,14 @@
         "actionType": "LEARN_MORE",
         "url": "https://hanafusa-hifuka-beauty.com/"
       }
+    },
+    "nikibi": {
+      "summary": "【くり返すニキビ・ニキビ跡でお悩みの方へ】皮膚科専門医が、保険診療のニキビ治療から症状に合わせた自費治療まで幅広くご提案します。「なかなか治らない」「くり返す」ニキビは、早めのご相談がおすすめです。千里中央駅徒歩5分。お気軽にご相談ください。",
+      "topicType": "STANDARD",
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://hanafusa-hifuka.com/symptoms/symptoms10/"
+      }
     }
   },
   "LOC_ESAKA": {
@@ -161,6 +169,14 @@
       "callToAction": {
         "actionType": "LEARN_MORE",
         "url": "https://esaka-hanafusa-hifuka.com/"
+      }
+    },
+    "nikibi": {
+      "summary": "【くり返すニキビ・ニキビ跡でお悩みの方へ】皮膚科専門医が、保険診療のニキビ治療から症状に合わせた自費治療まで幅広くご提案します。「なかなか治らない」「くり返す」ニキビは、早めのご相談がおすすめです。江坂駅徒歩1分。お気軽にご相談ください。",
+      "topicType": "STANDARD",
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://esaka-hanafusa-hifuka.com/dermatology/pimple/"
       }
     }
   },
@@ -246,6 +262,14 @@
       "callToAction": {
         "actionType": "LEARN_MORE",
         "url": "https://minoh-hanafusa-hifuka.jp/"
+      }
+    },
+    "nikibi": {
+      "summary": "【くり返すニキビ・ニキビ跡でお悩みの方へ】皮膚科専門医が、保険診療のニキビ治療から症状に合わせた自費治療まで幅広くご提案します。「なかなか治らない」「くり返す」ニキビは、早めのご相談がおすすめです。箕面萱野駅直結。お気軽にご相談ください。",
+      "topicType": "STANDARD",
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://minoh-hanafusa-hifuka.jp/insurance/pimple/"
       }
     }
   },
