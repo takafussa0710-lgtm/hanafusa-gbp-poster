@@ -27,11 +27,15 @@ LOCATIONS = {
 }
 
 # 休診日ルール（曜日: Mon=0 .. Sun=6）。該当拠点はその曜日は配信しない。
-# 江坂・ラボは水曜(2)休み → 水曜は配信しない（日替わり・キャンペーン共通で自動適用）
+# ・日曜(6)は全院休診 → 全拠点配信しない
+# ・江坂・ラボは水曜(2)も休み
+# （日替わり・キャンペーン共通で自動適用）
 JST = datetime.timezone(datetime.timedelta(hours=9))
 CLOSED_WEEKDAYS = {
-    "LOC_ESAKA": {2},
-    "LOC_LAB":   {2},
+    "LOC_SENRICHUO": {6},
+    "LOC_ESAKA":     {2, 6},
+    "LOC_MINOH":     {6},
+    "LOC_LAB":       {2, 6},
 }
 
 def is_closed_today(env_name):
