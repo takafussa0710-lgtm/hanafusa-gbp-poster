@@ -4,20 +4,29 @@
     "summary": "【メンズのヒゲ脱毛なら｜医療脱毛】青ひげ・毎日の剃毛の負担が気になる方へ。当院は皮膚科専門医による医療脱毛で、2波長レーザー「ジェントルマックスプロプラス」を使用し、肌質・毛質に合わせて照射します。肌トラブル時も同じ院で皮膚科診療を受けられて安心。千里中央駅徒歩5分。※自由診療。詳細はリンク先をご確認ください。",
     "topicType": "STANDARD",
     "image": "gentlemax_4x3.jpg",
-    "callToAction": { "actionType": "LEARN_MORE", "url": "https://hanafusa-mens.jp/beard/" }
+    "callToAction": {
+      "actionType": "LEARN_MORE",
+      "url": "https://hanafusa-mens.jp/beard/"
+    }
   },
   {
     "loc": "LOC_ESAKA",
-    "summary": "【メンズのヒゲ脱毛なら｜医療脱毛】青ひげ・毎日の剃毛の負担が気になる方へ。当院は皮膚科専門医による医療脱毛で、2波長レーザー「ジェントルマックスプロプラス」を使用し、肌質・毛質に合わせて照射します。肌トラブル時も同じ院で皮膚科診療を受けられて安心。江坂駅徒歩1分。※自由診療。詳細はリンク先をご確認ください。",
+    "summary": "【メンズのヒゲ脱毛なら｜医療脱毛】青ひげ・毎日の剃毛の負担が気になる方へ。当院はベテランの皮膚科医による医療脱毛で、2波長レーザー「ジェントルマックスプロプラス」を使用し、肌質・毛質に合わせて照射します。肌トラブル時も同じ院で皮膚科診療を受けられて安心。江坂駅徒歩1分。※自由診療。詳細はリンク先をご確認ください。",
     "topicType": "STANDARD",
     "image": "gentlemax_4x3.jpg",
-    "callToAction": { "actionType": "LEARN_MORE", "url": "https://hanafusa-mens.jp/beard/" }
+    "callToAction": {
+      "actionType": "LEARN_MORE",
+      "url": "https://hanafusa-mens.jp/beard/"
+    }
   },
   {
     "loc": "LOC_MINOH",
     "summary": "【メンズのヒゲ脱毛なら｜医療脱毛】青ひげ・毎日の剃毛の負担が気になる方へ。当院は皮膚科専門医による医療脱毛で、レーザー「スプレンダーX」を使用し、肌質・毛質に合わせて照射します。肌トラブル時も同じ院で皮膚科診療を受けられて安心。箕面萱野駅直結。※自由診療。詳細はリンク先をご確認ください。",
     "topicType": "STANDARD",
     "image": "splendorx_4x3.jpg",
-    "callToAction": { "actionType": "LEARN_MORE", "url": "https://hanafusa-mens.jp/beard/" }
+    "callToAction": {
+      "actionType": "LEARN_MORE",
+      "url": "https://hanafusa-mens.jp/beard/"
+    }
   }
 ]

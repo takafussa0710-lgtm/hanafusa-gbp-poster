@@ -4,27 +4,39 @@
     "summary": "【くり返す大人ニキビに｜アビクリア】ニキビの一因である「皮脂腺」に、1726nmの波長で選択的にはたらきかけるレーザー治療です。飲み薬・塗り薬でくり返す方の選択肢のひとつ。目安は約4週間隔で計3回、幅広い肌質の方に対応します。ニキビ治療機器として米国FDA・日本の厚生労働省で認可されています。皮膚科専門医が診察のうえ適応をご提案します。千里中央駅徒歩5分。※自由診療。効果・副作用・詳細はリンク先をご確認ください。",
     "topicType": "STANDARD",
     "image": "aviclear_4x3.jpg",
-    "callToAction": { "actionType": "LEARN_MORE", "url": "https://hanafusa-hifuka-beauty.com/treatment/aviclear/" }
+    "callToAction": {
+      "actionType": "LEARN_MORE",
+      "url": "https://hanafusa-hifuka-beauty.com/treatment/aviclear/"
+    }
   },
   {
     "loc": "LOC_MINOH",
     "summary": "【くり返す大人ニキビに｜アビクリア】ニキビの一因である「皮脂腺」に、1726nmの波長で選択的にはたらきかけるレーザー治療です。飲み薬・塗り薬でくり返す方の選択肢のひとつ。目安は約4週間隔で計3回、幅広い肌質の方に対応します。ニキビ治療機器として米国FDA・日本の厚生労働省で認可されています。皮膚科専門医が診察のうえ適応をご提案します。箕面萱野駅直結。※自由診療。効果・副作用・詳細はリンク先をご確認ください。",
     "topicType": "STANDARD",
     "image": "aviclear_4x3.jpg",
-    "callToAction": { "actionType": "LEARN_MORE", "url": "https://minoh-hanafusa-hifuka.jp/aviclear/" }
+    "callToAction": {
+      "actionType": "LEARN_MORE",
+      "url": "https://minoh-hanafusa-hifuka.jp/aviclear/"
+    }
   },
   {
     "loc": "LOC_ESAKA",
-    "summary": "【肌の赤み・毛穴・ハリが気になる方へ｜シルファームX】RF（高周波）とマイクロニードルを組み合わせ、肌の赤み・毛穴・ハリの低下などにアプローチする治療です。ダウンタイムに配慮しながら、さまざまな肌悩みに対応。皮膚科専門医が診察のうえご提案します。江坂駅徒歩1分。※自由診療。詳細はリンク先をご確認ください。",
+    "summary": "【肌の赤み・毛穴・ハリが気になる方へ｜シルファームX】RF（高周波）とマイクロニードルを組み合わせ、肌の赤み・毛穴・ハリの低下などにアプローチする治療です。ダウンタイムに配慮しながら、さまざまな肌悩みに対応。ベテランの皮膚科医が診察のうえご提案します。江坂駅徒歩1分。※自由診療。詳細はリンク先をご確認ください。",
     "topicType": "STANDARD",
     "image": "sylfirm_4x3.jpg",
-    "callToAction": { "actionType": "LEARN_MORE", "url": "https://esaka-hanafusa-hifuka.com/beauty/sylfirm-x/" }
+    "callToAction": {
+      "actionType": "LEARN_MORE",
+      "url": "https://esaka-hanafusa-hifuka.com/beauty/sylfirm-x/"
+    }
   },
   {
     "loc": "LOC_LAB",
     "summary": "【美容成分を、肌の奥まで届けるケア｜メソナJ】電気の力で美容成分の浸透をサポートするフェイシャルメニュー。乾燥・くすみ・キメの乱れが気になる方に。皮膚科専門医監修のもと、お肌の状態に合わせてご提案します。千里中央でメディカルエステをお探しの方へ。",
     "topicType": "STANDARD",
     "image": "mesonaj_4x3.jpg",
-    "callToAction": { "actionType": "LEARN_MORE", "url": "https://hanafusa-hifuka.com/lab/menu/mesonaj/" }
+    "callToAction": {
+      "actionType": "LEARN_MORE",
+      "url": "https://hanafusa-hifuka.com/lab/menu/mesonaj/"
+    }
   }
 ]
