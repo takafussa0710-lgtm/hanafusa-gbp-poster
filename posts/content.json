@@ -5,43 +5,75 @@
       "summary": "【全身の医療脱毛なら｜ジェントルマックスプロプラス】当院は皮膚科専門医による医療脱毛を行っています。2波長レーザーを搭載した「ジェントルマックスプロプラス」で、幅広い肌質・毛質に対応。肌トラブルが起きても同じ院で皮膚科診療を受けられるのが、皮膚科併設クリニックの安心ポイントです。千里中央駅徒歩5分。※自由診療",
       "topicType": "STANDARD",
       "image": "gentlemax_4x3.jpg",
-      "callToAction": { "actionType": "LEARN_MORE", "url": "https://hanafusa-hifuka-beauty.com/md/" }
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://hanafusa-hifuka-beauty.com/md/"
+      }
     },
     "funryu": {
       "summary": "【粉瘤（ふんりゅう）は日帰り手術で対応】「コリコリしたできもの」「赤く腫れて痛い」「独特のにおい」——それは粉瘤かもしれません。当院は形成外科の医師が、大きさや炎症に応じて切開法・くりぬき法から最適な方法を選び、傷跡に配慮した日帰り手術を行います。保険適用。お早めにご相談ください。",
       "topicType": "STANDARD",
       "image": "funryu_4x3.jpg",
-      "callToAction": { "actionType": "LEARN_MORE", "url": "https://hanafusa-hifuka.com/atheroma-lp/" }
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://hanafusa-hifuka.com/atheroma-lp/"
+      }
     },
     "aviclear_nikibi": {
       "summary": "【くり返す大人ニキビに｜アビクリア】ニキビの一因である「皮脂腺」に、1726nmの波長で選択的にはたらきかけるレーザー治療です。飲み薬・塗り薬でくり返す方の選択肢のひとつ。目安は約4週間隔で計3回、幅広い肌質の方に対応します。ニキビ治療機器として米国FDA・日本の厚生労働省で認可されています。皮膚科専門医が診察のうえ適応をご提案します。千里中央駅徒歩5分。※自由診療。効果・副作用・詳細はリンク先をご確認ください。",
       "topicType": "STANDARD",
       "image": "aviclear_4x3.jpg",
-      "callToAction": { "actionType": "LEARN_MORE", "url": "https://hanafusa-hifuka-beauty.com/treatment/aviclear/" }
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://hanafusa-hifuka-beauty.com/treatment/aviclear/"
+      }
     },
     "aviclear_hishi": {
       "summary": "【皮脂・テカリ・くり返すニキビが気になる方へ｜アビクリア】皮脂腺に1726nmの波長で選択的にはたらきかけるレーザー治療です。過剰な皮脂やくり返すニキビにお悩みの方の選択肢のひとつ。目安は約4週間隔で計3回、幅広い肌質に対応します。ニキビ治療機器として米国FDA・日本の厚生労働省で認可されています。皮膚科専門医が診察のうえご提案します。千里中央駅徒歩5分。※自由診療。詳細はリンク先をご確認ください。",
       "topicType": "STANDARD",
       "image": "aviclear_4x3.jpg",
-      "callToAction": { "actionType": "LEARN_MORE", "url": "https://hanafusa-hifuka-beauty.com/treatment/aviclear/" }
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://hanafusa-hifuka-beauty.com/treatment/aviclear/"
+      }
     },
     "mens_hige": {
       "summary": "【メンズのヒゲ脱毛なら｜医療脱毛】青ひげ・毎日の剃毛の負担が気になる方へ。当院は皮膚科専門医による医療脱毛で、2波長レーザー「ジェントルマックスプロプラス」を使用し、肌質・毛質に合わせて照射します。肌トラブル時も同じ院で皮膚科診療を受けられて安心。千里中央駅徒歩5分。※自由診療。詳細はリンク先をご確認ください。",
       "topicType": "STANDARD",
       "image": "gentlemax_4x3.jpg",
-      "callToAction": { "actionType": "LEARN_MORE", "url": "https://hanafusa-mens.jp/beard/" }
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://hanafusa-mens.jp/beard/"
+      }
     },
     "vbeam": {
       "summary": "【顔の赤み・赤ら顔・酒さにお悩みの方へ】頬の赤みや酒さ（しゅさ）には、Vビームなどによる治療をご提案できます。保険診療で対応できる場合もあります。気になる赤みは皮膚科専門医にまずご相談ください。千里中央駅徒歩5分。※治療内容により自由診療",
       "topicType": "STANDARD",
       "image": "vbeam_4x3.jpg",
-      "callToAction": { "actionType": "LEARN_MORE", "url": "https://hanafusa-hifuka-beauty.com/treatment/vbeam/" }
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://hanafusa-hifuka-beauty.com/treatment/vbeam/"
+      }
     },
     "miradry": {
       "summary": "【ワキのにおい・汗に、切らない治療「ミラドライ」】ワキガ・多汗症が気になる方へ。当院はマイクロ波で汗腺にアプローチする「ミラドライ」をご用意。メスを使わない治療をお探しの方に。皮膚科専門医がお肌を診たうえでご案内します。※自由診療",
       "topicType": "STANDARD",
-      "images": ["miradry_4x3.jpg", "miradry_treat_4x3.jpg"],
-      "callToAction": { "actionType": "LEARN_MORE", "url": "https://hanafusa-hifuka-beauty.com/miradry-lp/" }
+      "images": [
+        "miradry_4x3.jpg",
+        "miradry_treat_4x3.jpg"
+      ],
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://hanafusa-hifuka-beauty.com/miradry-lp/"
+      }
+    },
+    "atopy": {
+      "summary": "【アトピー性皮膚炎でお悩みの方へ】くり返すかゆみ・湿疹に、皮膚科専門医が保険診療で対応します。症状や生活に合わせて外用・内服・スキンケア指導を組み合わせ、症状のコントロールをめざします。近年は治療の選択肢も広がっています。千里中央駅徒歩5分。まずはご相談ください。",
+      "topicType": "STANDARD",
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://hanafusa-hifuka.com/symptoms/symptoms01/"
+      }
     }
   },
   "LOC_ESAKA": {
@@ -49,37 +81,66 @@
       "summary": "【全身の医療脱毛なら｜ジェントルマックスプロプラス】当院は皮膚科専門医による医療脱毛を行っています。2波長レーザーを搭載した「ジェントルマックスプロプラス」で、さまざまな肌質・毛質に対応。メンズ脱毛にも対応しています。肌トラブル時も同じ院で皮膚科診療を受けられて安心。江坂駅徒歩1分。※自由診療",
       "topicType": "STANDARD",
       "image": "gentlemax_4x3.jpg",
-      "callToAction": { "actionType": "LEARN_MORE", "url": "https://esaka-hanafusa-hifuka.com/beauty/medicaldepilation/" }
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://esaka-hanafusa-hifuka.com/beauty/medicaldepilation/"
+      }
     },
     "funryu": {
       "summary": "【粉瘤（ふんりゅう）は日帰り手術で対応】「コリコリしたできもの」「赤く腫れて痛い」「独特のにおい」——それは粉瘤かもしれません。当院では大きさや炎症に応じて切開法・くりぬき法から方法を選び、傷跡に配慮した日帰り手術を行います。保険適用。江坂駅徒歩1分、お早めにご相談ください。",
       "topicType": "STANDARD",
       "image": "funryu_4x3.jpg",
-      "callToAction": { "actionType": "LEARN_MORE", "url": "https://hanafusa-hifuka.com/atheroma-lp/" }
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://hanafusa-hifuka.com/atheroma-lp/"
+      }
     },
     "mens_hige": {
       "summary": "【メンズのヒゲ脱毛なら｜医療脱毛】青ひげ・毎日の剃毛の負担が気になる方へ。当院は皮膚科専門医による医療脱毛で、2波長レーザー「ジェントルマックスプロプラス」を使用し、肌質・毛質に合わせて照射します。肌トラブル時も同じ院で皮膚科診療を受けられて安心。江坂駅徒歩1分。※自由診療。詳細はリンク先をご確認ください。",
       "topicType": "STANDARD",
       "image": "gentlemax_4x3.jpg",
-      "callToAction": { "actionType": "LEARN_MORE", "url": "https://hanafusa-mens.jp/beard/" }
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://hanafusa-mens.jp/beard/"
+      }
     },
     "vbeam": {
       "summary": "【顔の赤み・赤ら顔・酒さにお悩みの方へ】頬の赤みや酒さ（しゅさ）には、VビームⅡなどによる治療をご提案できます。保険診療で対応できる場合もあります。気になる赤みは皮膚科専門医にまずご相談ください。江坂駅徒歩1分。※治療内容により自由診療",
       "topicType": "STANDARD",
       "image": "vbeam2_4x3.jpg",
-      "callToAction": { "actionType": "LEARN_MORE", "url": "https://esaka-hanafusa-hifuka.com/beauty/ruddyface/" }
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://esaka-hanafusa-hifuka.com/beauty/ruddyface/"
+      }
     },
     "sylfirm": {
       "summary": "【肌の赤み・毛穴・ハリが気になる方へ｜シルファームX】RF（高周波）とマイクロニードルを組み合わせ、肌の赤み・毛穴・ハリの低下などにアプローチする治療です。ダウンタイムに配慮しながら、さまざまな肌悩みに対応。皮膚科専門医が診察のうえご提案します。江坂駅徒歩1分。※自由診療。詳細はリンク先をご確認ください。",
       "topicType": "STANDARD",
       "image": "sylfirm_4x3.jpg",
-      "callToAction": { "actionType": "LEARN_MORE", "url": "https://esaka-hanafusa-hifuka.com/beauty/sylfirm-x/" }
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://esaka-hanafusa-hifuka.com/beauty/sylfirm-x/"
+      }
     },
     "miradry": {
       "summary": "【ワキのにおい・汗にお悩みの方へ｜ミラドライ】切らずにワキガ・多汗症にアプローチするミラドライを導入しています。汗ばむ季節の前のケアにご検討ください。皮膚科専門医がカウンセリングから対応します。江坂駅徒歩1分。※自由診療",
       "topicType": "STANDARD",
-      "images": ["miradry_4x3.jpg", "miradry_treat_4x3.jpg"],
-      "callToAction": { "actionType": "LEARN_MORE", "url": "https://hanafusa-hifuka-beauty.com/miradry-lp/" }
+      "images": [
+        "miradry_4x3.jpg",
+        "miradry_treat_4x3.jpg"
+      ],
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://hanafusa-hifuka-beauty.com/miradry-lp/"
+      }
+    },
+    "atopy": {
+      "summary": "【アトピー性皮膚炎でお悩みの方へ】くり返すかゆみ・湿疹に、皮膚科専門医が保険診療で対応します。お一人おひとりの症状に合わせて外用・内服・スキンケア指導を組み合わせ、症状のコントロールをめざします。江坂駅徒歩1分。まずはお気軽にご相談ください。",
+      "topicType": "STANDARD",
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://esaka-hanafusa-hifuka.com/dermatology/atopy/"
+      }
     }
   },
   "LOC_MINOH": {
@@ -87,43 +148,72 @@
       "summary": "【全身の医療脱毛なら｜スプレンダーX】当院は皮膚科専門医による医療脱毛を行っています。2種類のレーザーを搭載した「スプレンダーX」で、幅広い肌質・毛質の全身脱毛に対応。肌トラブルが起きても同じ院で皮膚科診療を受けられるのが安心です。箕面萱野駅直結・大型駐車場あり。※自由診療",
       "topicType": "STANDARD",
       "image": "splendorx_4x3.jpg",
-      "callToAction": { "actionType": "LEARN_MORE", "url": "https://minoh-hanafusa-hifuka.jp/depilation/" }
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://minoh-hanafusa-hifuka.jp/depilation/"
+      }
     },
     "funryu": {
       "summary": "【粉瘤（ふんりゅう）は日帰り手術で対応】「コリコリしたできもの」「赤く腫れて痛い」「独特のにおい」——それは粉瘤かもしれません。当院では大きさや炎症に応じて切開法・くりぬき法から方法を選び、傷跡に配慮した日帰り手術を行います。保険適用。箕面萱野駅直結、お早めにご相談ください。",
       "topicType": "STANDARD",
       "image": "funryu_4x3.jpg",
-      "callToAction": { "actionType": "LEARN_MORE", "url": "https://hanafusa-hifuka.com/atheroma-lp/" }
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://hanafusa-hifuka.com/atheroma-lp/"
+      }
     },
     "aviclear_nikibi": {
       "summary": "【くり返す大人ニキビに｜アビクリア】ニキビの一因である「皮脂腺」に、1726nmの波長で選択的にはたらきかけるレーザー治療です。飲み薬・塗り薬でくり返す方の選択肢のひとつ。目安は約4週間隔で計3回、幅広い肌質の方に対応します。ニキビ治療機器として米国FDA・日本の厚生労働省で認可されています。皮膚科専門医が診察のうえ適応をご提案します。箕面萱野駅直結。※自由診療。効果・副作用・詳細はリンク先をご確認ください。",
       "topicType": "STANDARD",
       "image": "aviclear_4x3.jpg",
-      "callToAction": { "actionType": "LEARN_MORE", "url": "https://minoh-hanafusa-hifuka.jp/aviclear/" }
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://minoh-hanafusa-hifuka.jp/aviclear/"
+      }
     },
     "aviclear_hishi": {
       "summary": "【皮脂・テカリ・くり返すニキビが気になる方へ｜アビクリア】皮脂腺に1726nmの波長で選択的にはたらきかけるレーザー治療です。過剰な皮脂やくり返すニキビにお悩みの方の選択肢のひとつ。目安は約4週間隔で計3回、幅広い肌質に対応します。ニキビ治療機器として米国FDA・日本の厚生労働省で認可されています。皮膚科専門医が診察のうえご提案します。箕面萱野駅直結。※自由診療。詳細はリンク先をご確認ください。",
       "topicType": "STANDARD",
       "image": "aviclear_4x3.jpg",
-      "callToAction": { "actionType": "LEARN_MORE", "url": "https://minoh-hanafusa-hifuka.jp/aviclear/" }
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://minoh-hanafusa-hifuka.jp/aviclear/"
+      }
     },
     "mens_hige": {
       "summary": "【メンズのヒゲ脱毛なら｜医療脱毛】青ひげ・毎日の剃毛の負担が気になる方へ。当院は皮膚科専門医による医療脱毛で、レーザー「スプレンダーX」を使用し、肌質・毛質に合わせて照射します。肌トラブル時も同じ院で皮膚科診療を受けられて安心。箕面萱野駅直結。※自由診療。詳細はリンク先をご確認ください。",
       "topicType": "STANDARD",
       "image": "splendorx_4x3.jpg",
-      "callToAction": { "actionType": "LEARN_MORE", "url": "https://hanafusa-mens.jp/beard/" }
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://hanafusa-mens.jp/beard/"
+      }
     },
     "vbeam": {
       "summary": "【顔の赤み・赤ら顔・酒さにお悩みの方へ】頬の赤みや酒さ（しゅさ）には、VビームⅡなどによる治療をご提案できます。保険診療で対応できる場合もあります。気になる赤みは、皮膚科専門医にまずご相談ください。箕面萱野駅直結・大型駐車場あり。※治療内容により自由診療",
       "topicType": "STANDARD",
       "image": "vbeam2_4x3.jpg",
-      "callToAction": { "actionType": "LEARN_MORE", "url": "https://minoh-hanafusa-hifuka.jp/treatment/vbeam/" }
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://minoh-hanafusa-hifuka.jp/treatment/vbeam/"
+      }
     },
     "blessing": {
       "summary": "【ニキビ跡・毛穴の開きが気になる方へ｜ブレッシング】マイクロニードルRF（高周波）に加え、薬剤の注入にも対応した機器です。斜めに針が入る「傾斜式ニードル」を採用し、クレーター状のニキビ跡に対してサブシジョン的なアプローチが可能。毛穴の開きなど幅広い肌悩みに対応します。ダウンタイムに配慮しながら、皮膚科専門医が診察のうえご提案します。箕面萱野駅直結。※自由診療。詳細はリンク先をご確認ください。",
       "topicType": "STANDARD",
       "image": "blessing_4x3.jpg",
-      "callToAction": { "actionType": "LEARN_MORE", "url": "https://minoh-hanafusa-hifuka.jp/blessing/" }
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://minoh-hanafusa-hifuka.jp/blessing/"
+      }
+    },
+    "atopy": {
+      "summary": "【アトピー性皮膚炎でお悩みの方へ】くり返すかゆみ・湿疹に、皮膚科専門医が保険診療で対応します。症状に合わせて外用・内服・スキンケア指導を組み合わせ、症状のコントロールをめざします。箕面萱野駅直結・キューズモール内。まずはご相談ください。",
+      "topicType": "STANDARD",
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://minoh-hanafusa-hifuka.jp/insurance/atopy/"
+      }
     }
   },
   "LOC_LAB": {
@@ -131,31 +221,46 @@
       "summary": "【毛穴・ごわつきが気になる方へ｜ハイドラジェントル】水流によるクレンジングと角質ケア、美容成分の導入を一度に行うフェイシャルメニュー。毛穴や肌のくすみ・ザラつきが気になる方のケアにおすすめです。千里中央駅徒歩5分のサロンで、お肌をすっきり整えませんか。",
       "topicType": "STANDARD",
       "image": "hydragentle_4x3.jpg",
-      "callToAction": { "actionType": "LEARN_MORE", "url": "https://hanafusa-hifuka.com/lab/" }
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://hanafusa-hifuka.com/lab/"
+      }
     },
     "mesonaj": {
       "summary": "【美容成分を、肌の奥まで届けるケア｜メソナJ】電気の力で美容成分の浸透をサポートするフェイシャルメニュー。乾燥・くすみ・キメの乱れが気になる方に。皮膚科専門医監修のもと、お肌の状態に合わせてご提案します。千里中央でメディカルエステをお探しの方へ。",
       "topicType": "STANDARD",
       "image": "mesonaj_4x3.jpg",
-      "callToAction": { "actionType": "LEARN_MORE", "url": "https://hanafusa-hifuka.com/lab/menu/mesonaj/" }
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://hanafusa-hifuka.com/lab/menu/mesonaj/"
+      }
     },
     "zoskin": {
       "summary": "【医師監修サロンのホームケア｜ゼオスキンヘルス】サロンケアの効果を保つには、毎日のホームケアが大切です。当サロンでは皮膚科専門医監修のもと、肌状態に合わせてゼオスキンヘルス（ZO SKIN HEALTH）などのスキンケアをご提案します。くすみ・毛穴・ハリなど、お悩みに合わせてお選びいただけます。千里中央駅徒歩5分。",
       "topicType": "STANDARD",
       "image": "zoskin_4x3.jpg",
-      "callToAction": { "actionType": "LEARN_MORE", "url": "https://hanafusa-hifuka.com/lab/cosme/" }
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://hanafusa-hifuka.com/lab/cosme/"
+      }
     },
     "hanafill_az": {
       "summary": "【皮膚科医監修のスキンケア｜hanafill AZ】整肌成分「アゼライン酸」を配合したスキンケアクリーム（20g・日本製）。テカリ・べたつきが気になる肌を清潔に保ち、うるおいを与えてキメを整えたい方の毎日のお手入れに。Dr.Hanafusa監修の当グループオリジナルです。サロンでもご案内しています。",
       "topicType": "STANDARD",
       "image": "hanafill_az_4x3.jpg",
-      "callToAction": { "actionType": "LEARN_MORE", "url": "https://www.hanafusa-hifuka.shop/view/item/000000000157?category_page_id=ct28" }
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://www.hanafusa-hifuka.shop/view/item/000000000157?category_page_id=ct28"
+      }
     },
     "sunsorit": {
       "summary": "【肌質・お悩みで選べる洗顔石けん｜サンソリット スキンピールバー】グリコール酸（AHA）を配合した洗顔せっけん。古い角質や毛穴の汚れをやさしく洗い流し、なめらかな洗い上がりに。赤・黒・青・緑の4タイプから、肌質やお悩みに合わせてお選びいただけます。皮膚科医監修サロンでご案内しています。",
       "topicType": "STANDARD",
       "image": "skinpeelbar_4x3.jpg",
-      "callToAction": { "actionType": "LEARN_MORE", "url": "https://hanafusa-hifuka.com/lab/blog/skin-peel-bar-types/" }
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://hanafusa-hifuka.com/lab/blog/skin-peel-bar-types/"
+      }
     }
   }
 }
