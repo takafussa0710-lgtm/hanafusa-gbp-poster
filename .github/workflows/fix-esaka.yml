@@ -1,0 +1,21 @@
+name: Fix Esaka (専門医表記の修正・一回限り)
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: 江坂の専門医投稿を削除→修正版で再投稿
+        env:
+          GBP_CLIENT_ID:     ${{ secrets.GBP_CLIENT_ID }}
+          GBP_CLIENT_SECRET: ${{ secrets.GBP_CLIENT_SECRET }}
+          GBP_REFRESH_TOKEN: ${{ secrets.GBP_REFRESH_TOKEN }}
+          LOC_ESAKA:         ${{ secrets.LOC_ESAKA }}
+          IMAGES_BASE_URL:   ${{ secrets.IMAGES_BASE_URL }}
+        run: python fix_esaka.py
