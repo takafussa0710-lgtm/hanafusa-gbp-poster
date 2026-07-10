@@ -1,4 +1,4 @@
-name: Fix Esaka (専門医表記の修正・一回限り)
+name: List Esaka posts (一覧・読み取り専用)
 
 on:
   workflow_dispatch: {}
@@ -11,7 +11,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: 江坂の専門医投稿を削除→修正版で再投稿
+      - name: 江坂の公開投稿を一覧表示（削除なし）
         env:
           GBP_CLIENT_ID:     ${{ secrets.GBP_CLIENT_ID }}
           GBP_CLIENT_SECRET: ${{ secrets.GBP_CLIENT_SECRET }}
