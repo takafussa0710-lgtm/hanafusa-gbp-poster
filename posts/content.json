@@ -477,6 +477,12 @@
     "xerf": {
       "summary": "【たるみ・ハリの低下が気になる方へ｜XERF（ザーフ）】2種類の周波数を同時に照射できるRF（高周波）機器で、肌の浅い層から深い層までアプローチするたるみ治療です。メスを使わない治療をお探しの方の選択肢のひとつ。皮膚科専門医が診察のうえご提案します。箕面萱野駅直結・大型駐車場あり。※自由診療。機器の承認状況・リスク等の詳細はリンク先をご確認ください。",
       "topicType": "STANDARD",
+      "images": [
+        "xerf_main_4x3.jpg",
+        "xerf_spider_4x3.jpg",
+        "xerf_depth_4x3.jpg",
+        "xerf_freq_4x3.jpg"
+      ],
       "callToAction": {
         "actionType": "LEARN_MORE",
         "url": "https://minoh-hanafusa-hifuka.jp/treatment/xerf/"
