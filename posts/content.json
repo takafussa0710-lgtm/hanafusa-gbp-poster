@@ -108,8 +108,7 @@
       "topicType": "STANDARD",
       "images": [
         "picosurepro_render_4x3.jpg",
-        "picosurepro_clinic1_4x3.jpg",
-        "picosurepro_clinic2_4x3.jpg"
+        "picosurepro_device_4x3.jpg"
       ],
       "callToAction": {
         "actionType": "LEARN_MORE",
