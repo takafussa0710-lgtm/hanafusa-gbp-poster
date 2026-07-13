@@ -102,6 +102,88 @@
         "actionType": "LEARN_MORE",
         "url": "https://hanafusa-hifuka-beauty.com/treatment/potenza/"
       }
+    },
+    "picosure_pro": {
+      "summary": "【シミ・そばかすに｜ピコシュア プロ】1兆分の1秒単位の超短パルスレーザーで、熱ではなく光音響効果によりシミの原因となるメラニンにアプローチする治療です。ダウンタイムに配慮した治療をお探しの方の選択肢のひとつ。皮膚科専門医が診察のうえ、シミの種類に応じた適応をご案内します。千里中央駅徒歩5分。※自由診療。機器の承認状況・リスク等の詳細はリンク先をご確認ください。",
+      "topicType": "STANDARD",
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://hanafusa-hifuka-beauty.com/treatment/picospot/"
+      }
+    },
+    "bbl": {
+      "summary": "【シミ・赤み・肌のハリに｜BBL光治療】複数の波長を使い分けて、シミ・そばかす・赤ら顔・小じわなど幅広い肌悩みにアプローチする光治療です。皮膚科専門医が肌の状態を診察したうえで、お悩みに合わせた照射をご提案します。千里中央駅徒歩5分。※自由診療。機器の承認状況・リスク等の詳細はリンク先をご確認ください。",
+      "topicType": "STANDARD",
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://hanafusa-hifuka-beauty.com/treatment/bbl/"
+      }
+    },
+    "hifu": {
+      "summary": "【たるみ・フェイスラインに｜HIFU（ウルトラフォーマーIII）】メスや注射を使わず、超音波の熱エネルギーを肌の土台（SMAS筋膜）に届けるたるみ治療です。フェイスラインや二重あごが気になる方の選択肢のひとつ。皮膚科専門医が診察のうえ適応をご案内します。千里中央駅徒歩5分。※自由診療。機器の承認状況・リスク等の詳細はリンク先をご確認ください。",
+      "topicType": "STANDARD",
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://hanafusa-hifuka-beauty.com/treatment/hifu/"
+      }
+    },
+    "curejet": {
+      "summary": "【針を使わない肌治療｜キュアジェット】空気圧（エアジェット）で薬剤を肌に届ける、針を使わない治療です。ニキビ跡・毛穴の開き・肌のハリ低下が気になる方で、痛みやダウンタイムに配慮した治療をお探しの方に。皮膚科専門医が診察のうえご提案します。千里中央駅徒歩5分。※自由診療。薬剤・リスク等の詳細はリンク先をご確認ください。",
+      "topicType": "STANDARD",
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://hanafusa-hifuka-beauty.com/treatment/curejet/"
+      }
+    },
+    "trifill": {
+      "summary": "【ニキビ跡の凹凸・毛穴に｜トライフィルプロ】CO2ガスによるサブシジョン（瘢痕組織の切離）と薬剤導入を組み合わせ、クレーター状のニキビ跡や毛穴の開きにアプローチする治療です。皮膚科専門医が肌の状態を診察のうえご提案します。千里中央駅徒歩5分。※自由診療。薬剤・リスク等の詳細はリンク先をご確認ください。",
+      "topicType": "STANDARD",
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://hanafusa-hifuka-beauty.com/treatment/trifillpro/"
+      }
+    },
+    "co2_ibo": {
+      "summary": "【盛り上がったイボ・できものに｜CO2レーザー】炭酸ガスレーザー「CO2RE（コア）」で、イボ（脂漏性角化症など）を周囲の組織へのダメージに配慮しながら除去する治療です。皮膚科専門医がまず診察し、保険診療の適応も含めてご案内します。千里中央駅徒歩5分。※治療内容により自由診療。詳細はリンク先をご確認ください。",
+      "topicType": "STANDARD",
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://hanafusa-hifuka-beauty.com/treatment/co2laser/"
+      }
+    },
+    "co2_hokuro": {
+      "summary": "【ほくろが気になる方へ｜CO2レーザー】炭酸ガスレーザー「CO2RE（コア）」で、ほくろをメスを使わずに除去する治療です。皮膚科専門医がまず診察し、悪性の疑いがないかを確認したうえで、適した除去方法をご提案します。千里中央駅徒歩5分。※治療内容により自由診療。詳細はリンク先をご確認ください。",
+      "topicType": "STANDARD",
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://hanafusa-hifuka-beauty.com/treatment/co2laser/"
+      }
+    },
+    "mens_vio": {
+      "summary": "【男性のVIO脱毛｜医療脱毛】デリケートゾーンの毛量を整えたい、将来に備えて清潔に保ちたい——男性のVIO脱毛のご相談が増えています。当院は皮膚科専門医による医療脱毛で、肌トラブルが起きても同じ院で皮膚科診療を受けられるのが安心です。千里中央駅徒歩5分。※自由診療。詳細はリンク先をご確認ください。",
+      "topicType": "STANDARD",
+      "image": "gentlemax_4x3.jpg",
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://hanafusa-mens.jp/vio"
+      }
+    },
+    "mens_zenshin": {
+      "summary": "【男性の全身脱毛｜医療脱毛】毎日のムダ毛処理の負担を減らしたい男性へ。2波長レーザー「ジェントルマックスプロプラス」を使用し、皮膚科専門医による医療脱毛で肌質・毛質に合わせて照射します。肌トラブル時も同じ院で皮膚科診療を受けられて安心。千里中央駅徒歩5分。※自由診療。詳細はリンク先をご確認ください。",
+      "topicType": "STANDARD",
+      "image": "gentlemax_4x3.jpg",
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://hanafusa-mens.jp/wholebody"
+      }
+    },
+    "botox_shiwa": {
+      "summary": "【表情じわが気になる方へ｜ボツリヌス注射（ボトックス）】眉間・額・目尻などの表情じわに、ボツリヌス製剤を注射する治療です。表情のクセによるしわにアプローチし、施術は短時間です。皮膚科専門医が診察のうえ、部位や量をご提案します。千里中央駅徒歩5分。※自由診療。製剤・リスク等の詳細はリンク先をご確認ください。",
+      "topicType": "STANDARD",
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://hanafusa-hifuka-beauty.com/treatment/botox/"
+      }
     }
   },
   "LOC_ESAKA": {
@@ -185,6 +267,80 @@
       "callToAction": {
         "actionType": "LEARN_MORE",
         "url": "https://esaka-hanafusa-hifuka.com/dermatology/pimple/"
+      }
+    },
+    "picosure": {
+      "summary": "【シミ・そばかすが気になる方へ｜ピコシュア】超短パルスのピコレーザーで、シミの原因となるメラニンに衝撃波でアプローチする治療です。濃いシミにはピコスポット、肝斑を含むお悩みにはピコトーニングなど、肌の状態に合わせてご提案します。ベテランの皮膚科医がまず診察します。江坂駅徒歩1分。※自由診療。詳細はリンク先をご確認ください。",
+      "topicType": "STANDARD",
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://esaka-hanafusa-hifuka.com/beauty/stain/"
+      }
+    },
+    "bbl": {
+      "summary": "【シミ・そばかす・赤みが気になる方へ｜BBL光治療】さまざまな色に反応する波長を照射し、シミ・そばかすや顔の赤みなど幅広い肌悩みにアプローチする光治療です。ベテランの皮膚科医が肌の状態を診察したうえで、お悩みに合わせた治療をご提案します。江坂駅徒歩1分。※自由診療。機器の承認状況・リスク等の詳細はリンク先をご確認ください。",
+      "topicType": "STANDARD",
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://esaka-hanafusa-hifuka.com/beauty/stain/"
+      }
+    },
+    "curejet": {
+      "summary": "【針を使わない肌治療｜キュアジェット】空気圧（エアジェット）で薬剤を肌に届ける、針を使わない治療です。ニキビ跡・毛穴の開き・肌のハリ低下が気になる方で、痛みやダウンタイムに配慮した治療をお探しの方に。ベテランの皮膚科医が診察のうえご提案します。江坂駅徒歩1分。※自由診療。薬剤・リスク等の詳細はリンク先をご確認ください。",
+      "topicType": "STANDARD",
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://esaka-hanafusa-hifuka.com/beauty/curejet/"
+      }
+    },
+    "trifill": {
+      "summary": "【ニキビ跡の凹凸・毛穴に｜トライフィルプロ】CO2ガスによるサブシジョン（瘢痕組織の切離）と薬剤導入を組み合わせ、クレーター状のニキビ跡や毛穴の開きにアプローチする治療です。ベテランの皮膚科医が肌の状態を診察のうえご提案します。江坂駅徒歩1分。※自由診療。薬剤・リスク等の詳細はリンク先をご確認ください。",
+      "topicType": "STANDARD",
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://esaka-hanafusa-hifuka.com/beauty/trifillpro/"
+      }
+    },
+    "co2_ibo": {
+      "summary": "【盛り上がったイボ・できものに｜CO2レーザー】炭酸ガスレーザー「アキュパルス」で、イボ（脂漏性角化症など）を周囲の組織へのダメージに配慮しながら除去する治療です。ベテランの皮膚科医がまず診察し、保険診療の適応も含めてご案内します。江坂駅徒歩1分。※治療内容により自由診療。詳細はリンク先をご確認ください。",
+      "topicType": "STANDARD",
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://esaka-hanafusa-hifuka.com/beauty/co2/"
+      }
+    },
+    "co2_hokuro": {
+      "summary": "【ほくろが気になる方へ｜CO2レーザー】炭酸ガスレーザー「アキュパルス」で、ほくろをメスを使わずに除去する治療です。ベテランの皮膚科医がまず診察し、悪性の疑いがないかを確認したうえで、適した除去方法をご提案します。江坂駅徒歩1分。※治療内容により自由診療。詳細はリンク先をご確認ください。",
+      "topicType": "STANDARD",
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://esaka-hanafusa-hifuka.com/beauty/co2/"
+      }
+    },
+    "mens_vio": {
+      "summary": "【男性のVIO脱毛｜医療脱毛】デリケートゾーンの毛量を整えたい、将来に備えて清潔に保ちたい——男性のVIO脱毛のご相談が増えています。当院はベテランの皮膚科医による医療脱毛で、肌トラブルが起きても同じ院で皮膚科診療を受けられるのが安心です。江坂駅徒歩1分。※自由診療。詳細はリンク先をご確認ください。",
+      "topicType": "STANDARD",
+      "image": "gentlemax_4x3.jpg",
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://hanafusa-mens.jp/vio"
+      }
+    },
+    "mens_zenshin": {
+      "summary": "【男性の全身脱毛｜医療脱毛】毎日のムダ毛処理の負担を減らしたい男性へ。2波長レーザー「ジェントルマックスプロプラス」を使用し、ベテランの皮膚科医による医療脱毛で肌質・毛質に合わせて照射します。肌トラブル時も同じ院で皮膚科診療を受けられて安心。江坂駅徒歩1分。※自由診療。詳細はリンク先をご確認ください。",
+      "topicType": "STANDARD",
+      "image": "gentlemax_4x3.jpg",
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://hanafusa-mens.jp/wholebody"
+      }
+    },
+    "ultracelzi": {
+      "summary": "【たるみ・フェイスラインに｜ウルトラセルZi】超音波の熱エネルギーを肌の土台（SMAS層）に届けるHIFU（ハイフ）治療です。照射深度を細かく調整でき、フェイスラインのたるみやほうれい線が気になる方の選択肢のひとつ。ベテランの皮膚科医が診察のうえご提案します。江坂駅徒歩1分。※自由診療。機器の承認状況・リスク等の詳細はリンク先をご確認ください。",
+      "topicType": "STANDARD",
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://esaka-hanafusa-hifuka.com/beauty/hifu/"
       }
     }
   },
@@ -287,6 +443,80 @@
       "callToAction": {
         "actionType": "LEARN_MORE",
         "url": "https://minoh-hanafusa-hifuka.jp/clinicblog/4702/coolsculpting-elite/"
+      }
+    },
+    "picosure": {
+      "summary": "【シミ・そばかすに｜ピコシュア】1兆分の1秒単位でレーザーを照射し、熱ではなく衝撃波でシミの原因となるメラニンにアプローチするピコレーザー治療です。ダウンタイムに配慮した治療をお探しの方の選択肢のひとつ。皮膚科専門医が診察のうえ、シミの種類に応じてご提案します。箕面萱野駅直結・大型駐車場あり。※自由診療。詳細はリンク先をご確認ください。",
+      "topicType": "STANDARD",
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://minoh-hanafusa-hifuka.jp/pico_spot/"
+      }
+    },
+    "stellar_m22": {
+      "summary": "【シミ・そばかす・赤みに｜フォトフェイシャル（ステラM22）】複数の波長フィルターを使い分け、シミ・そばかす・顔の赤みなど幅広い肌悩みにアプローチするIPL（光治療）です。ダウンタイムに配慮しながら、皮膚科専門医が肌の状態に合わせてご提案します。箕面萱野駅直結・大型駐車場あり。※自由診療。詳細はリンク先をご確認ください。",
+      "topicType": "STANDARD",
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://minoh-hanafusa-hifuka.jp/ipl/"
+      }
+    },
+    "xerf": {
+      "summary": "【たるみ・ハリの低下が気になる方へ｜XERF（ザーフ）】2種類の周波数を同時に照射できるRF（高周波）機器で、肌の浅い層から深い層までアプローチするたるみ治療です。メスを使わない治療をお探しの方の選択肢のひとつ。皮膚科専門医が診察のうえご提案します。箕面萱野駅直結・大型駐車場あり。※自由診療。機器の承認状況・リスク等の詳細はリンク先をご確認ください。",
+      "topicType": "STANDARD",
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://minoh-hanafusa-hifuka.jp/treatment/xerf/"
+      }
+    },
+    "curejet": {
+      "summary": "【針を使わない肌治療｜キュアジェット】空気圧（エアジェット）で薬剤を肌に届ける、針を使わない治療です。ニキビ跡・毛穴の開き・肌のハリ低下が気になる方で、痛みやダウンタイムに配慮した治療をお探しの方に。皮膚科専門医が診察のうえご提案します。箕面萱野駅直結・大型駐車場あり。※自由診療。薬剤・リスク等の詳細はリンク先をご確認ください。",
+      "topicType": "STANDARD",
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://minoh-hanafusa-hifuka.jp/curejet/"
+      }
+    },
+    "co2_ibo": {
+      "summary": "【盛り上がったイボ・できものに｜CO2レーザー】炭酸ガスレーザー「アキュパルス」で、イボ（脂漏性角化症など）を周囲の組織へのダメージに配慮しながら除去する治療です。皮膚科専門医がまず診察し、保険診療の適応も含めてご案内します。箕面萱野駅直結・大型駐車場あり。※治療内容により自由診療。詳細はリンク先をご確認ください。",
+      "topicType": "STANDARD",
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://minoh-hanafusa-hifuka.jp/treatment/acupulse/"
+      }
+    },
+    "co2_hokuro": {
+      "summary": "【ほくろが気になる方へ｜CO2レーザー】炭酸ガスレーザー「アキュパルス」で、ほくろをメスを使わずに除去する治療です。皮膚科専門医がまず診察し、悪性の疑いがないかを確認したうえで、適した除去方法をご提案します。箕面萱野駅直結・大型駐車場あり。※治療内容により自由診療。詳細はリンク先をご確認ください。",
+      "topicType": "STANDARD",
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://minoh-hanafusa-hifuka.jp/treatment/acupulse/"
+      }
+    },
+    "mens_vio": {
+      "summary": "【男性のVIO脱毛｜医療脱毛】デリケートゾーンの毛量を整えたい、将来に備えて清潔に保ちたい——男性のVIO脱毛のご相談が増えています。当院は皮膚科専門医による医療脱毛で、肌トラブルが起きても同じ院で皮膚科診療を受けられるのが安心です。箕面萱野駅直結・大型駐車場あり。※自由診療。詳細はリンク先をご確認ください。",
+      "topicType": "STANDARD",
+      "image": "splendorx_4x3.jpg",
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://hanafusa-mens.jp/vio"
+      }
+    },
+    "mens_zenshin": {
+      "summary": "【男性の全身脱毛｜医療脱毛】毎日のムダ毛処理の負担を減らしたい男性へ。2種類のレーザーを搭載した「スプレンダーX」を使用し、皮膚科専門医による医療脱毛で肌質・毛質に合わせて照射します。肌トラブル時も同じ院で皮膚科診療を受けられて安心。箕面萱野駅直結・大型駐車場あり。※自由診療。詳細はリンク先をご確認ください。",
+      "topicType": "STANDARD",
+      "image": "splendorx_4x3.jpg",
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://hanafusa-mens.jp/wholebody"
+      }
+    },
+    "botox_shiwa": {
+      "summary": "【表情じわが気になる方へ｜ボツリヌス注射（ボトックス）】眉間・額・目尻などの表情じわに、ボツリヌス製剤を注射する治療です。表情のクセによるしわにアプローチし、施術は短時間です。皮膚科専門医が診察のうえ、部位や量をご提案します。箕面萱野駅直結・大型駐車場あり。※自由診療。製剤・リスク等の詳細はリンク先をご確認ください。",
+      "topicType": "STANDARD",
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://minoh-hanafusa-hifuka.jp/treatment/botulinum-toxin/"
       }
     }
   },
