@@ -117,9 +117,7 @@
       "images": [
         "bbl_unit_4x3.jpg",
         "bbl_hand_4x3.jpg",
-        "bbl_filter_4x3.jpg",
-        "bbl_cart_4x3.jpg",
-        "bbl_filter2_4x3.jpg"
+        "bbl_filter_4x3.jpg"
       ],
       "callToAction": {
         "actionType": "LEARN_MORE",
@@ -293,9 +291,7 @@
       "images": [
         "bbl_unit_4x3.jpg",
         "bbl_hand_4x3.jpg",
-        "bbl_filter_4x3.jpg",
-        "bbl_cart_4x3.jpg",
-        "bbl_filter2_4x3.jpg"
+        "bbl_filter_4x3.jpg"
       ],
       "callToAction": {
         "actionType": "LEARN_MORE",
