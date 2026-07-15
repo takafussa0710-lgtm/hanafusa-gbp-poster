@@ -2,8 +2,9 @@ name: GBP daily post
 
 on:
   schedule:
-    # 毎日 09:07 JST（=00:07 UTC）。00分はGitHubが混雑し遅延が大きいため半端な分に設定。
-    - cron: "7 0 * * *"
+    # 毎日 07:07 JST（=22:07 UTC）に起動し、下の待機ステップで 09:00 JST まで待ってから投稿。
+    # GitHub の schedule は遅延するため（実測で最大3時間超）、早めに起動して着地時刻を安定させる。
+    - cron: "7 22 * * *"
   workflow_dispatch: {}
 
 # 投稿ロジックは posts/schedule.json（曜日×週）＋ posts/content.json（テーマ本文）。
@@ -12,6 +13,17 @@ jobs:
   post:
     runs-on: ubuntu-latest
     steps:
+      - name: 09:02 JST まで待機（早く起動した分はここで吸収。手動実行時は待たない）
+        if: github.event_name == 'schedule'
+        run: |
+          target=$(TZ=Asia/Tokyo date -d "09:02" +%s)
+          now=$(date +%s)
+          if [ "$now" -lt "$target" ]; then
+            echo "09:02 JST まで $((target - now)) 秒待機します"
+            sleep $((target - now))
+          else
+            echo "既に 09:02 JST を過ぎているため待機なしで投稿します"
+          fi
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
