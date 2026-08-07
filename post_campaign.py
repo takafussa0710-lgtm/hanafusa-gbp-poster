@@ -5,6 +5,7 @@
 使い方: python post_campaign.py posts/campaign_xxx.json
 各エントリは {"loc": "LOC_XXX", "summary": ..., "callToAction": ..., 任意で image/images}。
 "loc" は GitHub Secrets のロケーション環境変数名（LOC_SENRICHUO 等）。
+環境変数 IGNORE_CLOSED=1 … 定休日チェックを無視して配信（休暇告知など、休診日でも投稿したい場合）
 """
 import os, json, sys
 import post_to_gbp as g
@@ -16,8 +17,9 @@ def main():
         entries = json.load(f)
     token = g.get_access_token()
     fail = 0
+    ignore_closed = os.environ.get('IGNORE_CLOSED') == '1'
     for e in entries:
-        if g.is_closed_today(e['loc']):
+        if not ignore_closed and g.is_closed_today(e['loc']):
             print(f"[skip] {e['loc']} は本日休診日のため配信しない")
             continue
         loc = os.environ.get(e['loc'])

@@ -12,16 +12,33 @@
   GBP_CLIENT_ID / GBP_CLIENT_SECRET / GBP_REFRESH_TOKEN / LOC_* / IMAGES_BASE_URL
   DRY_RUN=1   … 実際に投稿せず、投稿予定を表示
   RUN_DATE=YYYY-MM-DD … テスト用に日付を上書き
+
+posts/closures.json … 期間限定の臨時休業（夏季休暇など）。該当拠点・期間は日替わり投稿をスキップ。
+  例: [{"note": "夏季休暇2026", "start": "2026-08-09", "end": "2026-08-16", "locs": ["LOC_SENRICHUO"]}]
 """
 import os, json, sys, datetime
 import post_to_gbp as g
 
 WD = ["月", "火", "水", "木", "金", "土", "日"]
 
+def load_closures():
+    path = "posts/closures.json"
+    if not os.path.exists(path):
+        return []
+    with open(path, encoding="utf-8") as f:
+        return json.load(f)
+
+def closure_note(env_name, today, closures):
+    for c in closures:
+        if env_name in c.get("locs", []) and datetime.date.fromisoformat(c["start"]) <= today <= datetime.date.fromisoformat(c["end"]):
+            return c.get("note", "臨時休業")
+    return None
+
 def main():
     dry = os.environ.get("DRY_RUN") == "1"
     sched = json.load(open("posts/schedule.json", encoding="utf-8"))
     content = json.load(open("posts/content.json", encoding="utf-8"))
+    closures = load_closures()
     anchor = datetime.date.fromisoformat(sched["anchor"])
     run_date = os.environ.get("RUN_DATE")
     today = datetime.date.fromisoformat(run_date) if run_date else datetime.datetime.now(g.JST).date()
@@ -43,6 +60,10 @@ def main():
         widx = weeks_since % weeks
         topic = cfg["grid"][widx][weekday]
         tag = f"{env_name} W{widx+1}/{WD[weekday]}"
+        note = closure_note(env_name, today, closures)
+        if note:
+            print(f"[休業/{note}] {tag}")
+            continue
         if not topic:
             print(f"[休/なし] {tag}")
             continue
