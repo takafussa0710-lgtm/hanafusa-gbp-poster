@@ -9,6 +9,13 @@ on:
 
 # 投稿ロジックは posts/schedule.json（曜日×週）＋ posts/content.json（テーマ本文）。
 # 2026-07-13 起点。開始前の日付・日曜・休診(水:江坂/ラボ)は表側のnullで自動的に投稿なし。
+#
+# 2026-10-21 再発防止: Public リポジトリは 60 日間コミットが無いと schedule が自動無効化される
+# （2026-10-18〜21 に disabled_inactivity で停止した）。毎月1日にハートビートの空コミットを push して
+# 60 日カウンタをリセットする。push には contents: write 権限が要る。
+permissions:
+  contents: write
+
 jobs:
   post:
     runs-on: ubuntu-latest
@@ -39,3 +46,13 @@ jobs:
           LOC_LAB:           ${{ secrets.LOC_LAB }}
           IMAGES_BASE_URL:   ${{ secrets.IMAGES_BASE_URL }}
         run: python post_scheduled.py
+      - name: 月1ハートビート（毎月1日 JST・定時実行のみ）— 60日無コミットによる schedule 自動無効化を防ぐ
+        if: github.event_name == 'schedule' && success()
+        run: |
+          if [ "$(TZ=Asia/Tokyo date +%d)" != "01" ]; then
+            echo "1日ではないためハートビートなし"; exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit --allow-empty -m "heartbeat: $(TZ=Asia/Tokyo date +%Y-%m-%d) 定時実行の自動無効化防止（空コミット）"
+          git push origin HEAD:main

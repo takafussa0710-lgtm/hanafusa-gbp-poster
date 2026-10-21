@@ -14,7 +14,7 @@ import json, glob, subprocess, sys, time
 import urllib.request, urllib.parse, urllib.error
 
 def load_client():
-    files = sorted(glob.glob('/Users/takafussa/Downloads/client_secret_*.json'))
+    files = sorted(glob.glob('/Users/takaaki/Downloads/client_secret_*.json'))
     if not files:
         print('ERROR: ~/Downloads に client_secret_*.json が見つかりません'); sys.exit(1)
     d = json.load(open(files[-1]))
