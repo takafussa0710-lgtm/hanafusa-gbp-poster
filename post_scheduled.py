@@ -21,6 +21,27 @@ import post_to_gbp as g
 
 WD = ["月", "火", "水", "木", "金", "土", "日"]
 
+# --- 2026-10-26 追加: GBP経由の流入を GA4 で見分けるための UTM(自院ドメインのリンクだけ。既存の query/fragment は保持)
+OWN_DOMAINS = {"hanafusa-hifuka.com", "hanafusa-hifuka-beauty.com", "esaka-hanafusa-hifuka.com",
+               "minoh-hanafusa-hifuka.jp", "hanafusa-mens.jp", "www.hanafusa-hifuka.shop"}
+CLINIC_KEY = {"LOC_SENRICHUO": "senri", "LOC_ESAKA": "esaka", "LOC_MINOH": "minoh", "LOC_LAB": "lab"}
+
+
+def add_utm(url, env_name, topic):
+    """自院ドメインのURLに utm を付ける。すでに utm_source があれば何もしない。"""
+    from urllib.parse import urlsplit, urlunsplit, parse_qsl, urlencode
+    if not url:
+        return url
+    sp = urlsplit(url)
+    if sp.netloc not in OWN_DOMAINS:
+        return url
+    q = parse_qsl(sp.query, keep_blank_values=True)
+    if any(k == "utm_source" for k, _ in q):
+        return url
+    q += [("utm_source", "gbp"), ("utm_medium", "post"), ("utm_campaign", CLINIC_KEY.get(env_name, env_name.lower())), ("utm_content", topic)]
+    return urlunsplit((sp.scheme, sp.netloc, sp.path, urlencode(q), sp.fragment))
+
+
 def load_closures():
     path = "posts/closures.json"
     if not os.path.exists(path):
@@ -75,6 +96,8 @@ def main():
         if not loc:
             print(f"[skip] {env_name} のロケーション環境変数が未設定")
             continue
+        if post.get("callToAction") and post["callToAction"].get("url"):
+            post = {**post, "callToAction": {**post["callToAction"], "url": add_utm(post["callToAction"]["url"], env_name, topic)}}
         url = (post.get("callToAction") or {}).get("url", "")
         if dry:
             img = post.get("images") or post.get("image") or "-"
