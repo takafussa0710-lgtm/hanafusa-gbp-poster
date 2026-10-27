@@ -55,6 +55,16 @@ def closure_note(env_name, today, closures):
             return c.get("note", "臨時休業")
     return None
 
+
+def pick_variant(post, today):
+    """content.json の投稿に variants:[{"months":[10,11,12,1], ...上書き項目}] があれば、当日の月に合う最初のものを基本投稿に重ねて返す。
+    季節版(例: ミラドライ秋冬版=10〜1月)は通年の文面を書き換えず、該当月だけ自動で差し替わる(2026-10-27 理事長指示)。"""
+    base = {k: v for k, v in post.items() if k != "variants"}
+    for v in post.get("variants") or []:
+        if today.month in v.get("months", []):
+            return {**base, **{k: x for k, x in v.items() if k != "months"}}
+    return base
+
 def main():
     dry = os.environ.get("DRY_RUN") == "1"
     sched = json.load(open("posts/schedule.json", encoding="utf-8"))
@@ -92,6 +102,7 @@ def main():
         if not post:
             print(f"[未登録] {tag} topic={topic} … コンテンツ台帳に未登録のためスキップ")
             continue
+        post = pick_variant(post, today)
         loc = os.environ.get(env_name)
         if not loc:
             print(f"[skip] {env_name} のロケーション環境変数が未設定")

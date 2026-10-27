@@ -1,0 +1,28 @@
+[
+  {
+    "loc": "LOC_SENRICHUO",
+    "summary": "【ワキ汗・ワキガ治療は秋冬がおすすめ｜ミラドライ】ミラドライは切らずにマイクロ波で汗腺にアプローチする治療です。施術後に腫れや内出血が出ることがあり、長袖で隠せて汗の少ない秋冬は、夏を迎える前に落ち着かせておける時期です。両わき平日178,000円(税込)。皮膚科専門医が診察し、適応やリスク・副作用をご説明したうえでご案内します。千里中央駅徒歩5分。※自由診療。詳細はリンク先をご確認ください。",
+    "topicType": "STANDARD",
+    "images": [
+      "miradry_4x3.jpg",
+      "miradry_treat_4x3.jpg"
+    ],
+    "callToAction": {
+      "actionType": "LEARN_MORE",
+      "url": "https://hanafusa-hifuka-beauty.com/treatment/miradry/"
+    }
+  },
+  {
+    "loc": "LOC_ESAKA",
+    "summary": "【ワキ汗・ワキガ治療は秋冬がおすすめ｜ミラドライ】切らずにマイクロ波で汗腺にアプローチするミラドライ。施術後の腫れや内出血は長袖で隠しやすく、汗の少ない秋冬に受けておくと、汗ばむ季節に間に合います。両わき平日178,000円(税込)。ベテランの皮膚科医がカウンセリングから担当し、適応やリスク・副作用をご説明します。江坂駅徒歩1分。※自由診療。詳細はリンク先をご確認ください。",
+    "topicType": "STANDARD",
+    "images": [
+      "miradry_4x3.jpg",
+      "miradry_treat_4x3.jpg"
+    ],
+    "callToAction": {
+      "actionType": "LEARN_MORE",
+      "url": "https://esaka-hanafusa-hifuka.com/beauty/miradry/"
+    }
+  }
+]
