@@ -1,0 +1,27 @@
+name: monthly-keywords
+# G9(2026-11-10): 毎月 5 日に前月の GBP 検索語(アビクリア・ニキビ関連のみ)を取得してログに出す。読み取りのみ。
+on:
+  schedule:
+    - cron: "7 0 5 * *"   # 毎月 5 日 09:07 JST
+  workflow_dispatch:
+    inputs:
+      months:
+        description: "直近何か月分か"
+        default: "1"
+jobs:
+  keywords:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: fetch
+        env:
+          GBP_CLIENT_ID:     ${{ secrets.GBP_CLIENT_ID }}
+          GBP_CLIENT_SECRET: ${{ secrets.GBP_CLIENT_SECRET }}
+          GBP_REFRESH_TOKEN: ${{ secrets.GBP_REFRESH_TOKEN }}
+          LOC_SENRICHUO:     ${{ secrets.LOC_SENRICHUO }}
+          LOC_MINOH:         ${{ secrets.LOC_MINOH }}
+          MONTHS:            ${{ github.event.inputs.months || '1' }}
+        run: python fetch_keywords.py | tee -a "$GITHUB_STEP_SUMMARY"

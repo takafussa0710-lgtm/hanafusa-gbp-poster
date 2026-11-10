@@ -7,7 +7,7 @@
       "grid": [
         ["zenshin_datsumo", "funryu", "aviclear_nikibi", "mens_hige", "vbeam", "atopy", null],
         ["ruby_laser", "picosure_pro", "miradry", "potenza", "vbeam", "nikibi", null],
-        ["bbl", "aviclear_hishi", "hifu", "curejet", "trifill", "nikibi", null],
+        ["bbl", "aviclear_access", "hifu", "curejet", "trifill", "nikibi", null],
         ["co2_ibo", "mens_vio", "hifu", "mens_zenshin", "botox_shiwa", "co2_hokuro", null]
       ]
     },
@@ -25,7 +25,7 @@
       "grid": [
         ["zenshin_datsumo", "funryu", "aviclear_nikibi", "mens_hige", "vbeam", "atopy", null],
         ["ruby_laser", "picosure", "coolsculpting", "blessing", "vbeam", "nikibi", null],
-        ["stellar_m22", "aviclear_hishi", "xerf", "curejet", "atopy", "nikibi", null],
+        ["stellar_m22", "aviclear_access", "xerf", "curejet", "atopy", "nikibi", null],
         ["co2_ibo", "mens_vio", "xerf", "mens_zenshin", "botox_shiwa", "co2_hokuro", null]
       ]
     },
